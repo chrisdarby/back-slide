@@ -1,0 +1,21 @@
+1. Edit the backSlider css file and add your slide locations:
+
+.slide_1 { background-image: url('images/slide1.jpg'); }
+.slide_2 { background-image: url('images/slide2.jpg'); }
+.slide_3 { background-image: url('images/slide3.jpg'); }
+.slide_4 { background-image: url('images/slide4.jpg'); }
+
+You can have as many as you want
+
+2. Change the .slide and .slider classes and change the height to the height of your div
+
+3. Add <div id="slider" class="slider"></div> to your HTML file
+4. Include the js and css backSlider files in your HTML file.
+5. Include jQuery as this is also required
+6. Call the backSlider function
+
+    <script>
+	backSlider.init('slider',4);
+    </script>
+
+The number "4" needs to reflect the number of slides you have otherwise it will only show the number you have placed.. if you have .slide_1, .slide_2.... .slide_20... but only put in 3.. it will only show slide 1 to 3
